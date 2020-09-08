@@ -7,4 +7,6 @@ import ml.srajsonu.userservice.model.User;
 public interface UserService {
 
     public User registerUser(UserDto userDto);
+
+    public User validateUser(String token);
 }
